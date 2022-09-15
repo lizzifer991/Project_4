@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACKEV Diabetes & Endocrinology Clinic</title>
+    <link rel="stylesheet"  href="style.css">
+    <h1>ACKEV Diabetes & Endocrinology Clinic</h1>
+</head>
+<body>
+  <form action="https://form.taxi/s/u5rmetm6" id="ft-form" method="POST" accept-charset="UTF-8">
+    <fieldset>
+      <legend>Personal Info</legend>
+      <label>
+        Full Name (First, Last)
+        <input type="text" name="name" required>
+      </label>
+      <div class="two-cols">
+        <label>
+          Email Address
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Phone Number
+          <input type="tel" name="phone">
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Appointment Request</legend>
+      <div class="two-cols">
+        <label>
+          Desired Appointment Date 
+          <input type="date" name="Appointment request" required>
+        </label>
+        <div class="inline">
+          <label>
+            <input type="hidden" name="Morning desired" value="no">
+            <input type="checkbox" name="Morning desired" value="yes">
+            Morning
+          </label>
+          <label>
+            <input type="hidden" name="Afternoon desired" value="no">
+            <input type="checkbox" name="Afternoon desired" value="yes">
+            Afternoon
+          </label>
+        </div>
+      </div>
+      <p>Preffered Contact</p>
+      <div class="inline">
+        <label>
+          <input type="radio" name="Confirmation requested by" value="email" checked>
+          Email
+        </label>
+        <label>
+          <input type="radio" name="Confirmation requested by" value="phone">
+          Phone Call
+        </label>
+      </div>
+    </fieldset>
+    <div class="btns">
+      <input type="text" name="_gotcha" value="" style="display:none;">
+      <input type="submit" value="Submit request">
+    </div>
+  </form>
+  </body>
+  </html>
