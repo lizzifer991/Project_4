@@ -74,11 +74,8 @@
     background-size: cover;
     background-position: center;
    }
-
-
-
-
    #ft-form {
+    padding-top: 2rem;
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15
