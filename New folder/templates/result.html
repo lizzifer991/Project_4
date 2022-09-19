@@ -15,24 +15,23 @@
 		<div class="container">
             <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2>
             <div class='description'>
-    			<p>This is just a prediction based on key factors; consult with your doctor for an accurate result 😊</p>
+    			<p>This is just a prediction based on key factors. Please consult with your doctor for an accurate result. </p>
     		</div>
     	</div>
 
 		<!-- Result -->
 		<div class="results">
 			{% if prediction==1 %}
-				<h1>Prediction: <span class='danger'>High chance of Diabetes</span></h1>
+				<h1>Prediction: <span class='danger'>High Risk of Diabetes</span></h1>
 			{% elif prediction==0 %}
-				<h1>Prediction: <span class='safe'>Low chances of having diabetes</span></h1>
+				<h1>Prediction: <span class='safe'>Low Risk of having diabetes</span></h1>
 			{% endif %}
 		</div>
 
 		<!-- Footer -->
        <div class='footer'>
            <div class="contact">
-			<a target="_blank" href="https://github.com/"><i class="fab fa-github fa-lg contact-icon"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/"><i class=""></i></a>
+			<a target="_blank" href="https://github.com/lizzifer991/Project_4"><i class="fab fa-github fa-lg contact-icon"></i></a>
            </div>
            <p class='footer-description'></p>
        </div>
