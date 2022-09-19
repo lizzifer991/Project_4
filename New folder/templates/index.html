@@ -15,7 +15,7 @@
     	<div class="container">
             <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2>
             <div class='description'>
-    			<p>This is just a prediction based on key factors; consult with your doctor for an accurate result 😊</p>
+    			<p>This is just a prediction based on key factors; consult with your doctor for an accurate result. </p>
     		</div>
     	</div>
 
@@ -23,9 +23,9 @@
     	<div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
                 <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
-                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 80"><br>
-                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) eg. 80"><br>
-                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) eg. 20"><br>
+                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 100"><br>
+                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) eg. 100"><br>
+                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) eg. 2"><br>
                 <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL) eg. 80"><br>
                 <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²) eg. 23.1"><br>
                 <input class="form-input" type="text" name="familyhistory" placeholder="Diabetes Pedigree Function eg. 0.52"><br>
@@ -38,8 +38,7 @@
         <!-- Footer -->
        <div class='footer'>
            <div class="contact">
-               <a target="_blank" href="https://github.com/"><i class="fab fa-github fa-lg contact-icon"></i></a>
-               <a target="_blank" href="https://www.linkedin.com/"><i class=""></i></a>
+               <a target="_blank" href="https://github.com/lizzifer991/Project_4"><i class="fab fa-github fa-lg contact-icon"></i></a>
            </div>
            <p class='footer-description'></p>
        </div>
