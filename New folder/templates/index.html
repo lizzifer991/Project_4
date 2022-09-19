@@ -22,14 +22,14 @@
         <!-- Text Area -->
     	<div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
-                <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
-                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 80"><br>
-                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) eg. 80"><br>
-                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) eg. 20"><br>
-                <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL) eg. 80"><br>
-                <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²) eg. 23.1"><br>
-                <input class="form-input" type="text" name="familyhistory" placeholder="Diabetes Pedigree Function eg. 0.52"><br>
-                <input class="form-input" type="text" name="age" placeholder="Age (years) eg. 34"><br>
+                <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies - Range: 0-17"><br>
+                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) - Range: 0-199"><br>
+                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) - Range: 0-122"><br>
+                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) - Range: 0-99"><br>
+                <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL) - Range: 0-845"><br>
+                <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²) - Range: 0-65.1"><br>
+                <input class="form-input" type="text" name="familyhistory" placeholder="Diabetes Pedigree Function - Range: 0.07-2.4"><br>
+                <input class="form-input" type="text" name="age" placeholder="Age (years) = Range: 0-80"><br>
 
         		<input type="submit" class="my-cta-button" value="Predict">
         	</form>
